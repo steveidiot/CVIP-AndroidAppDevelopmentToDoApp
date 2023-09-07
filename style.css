@@ -1,0 +1,59 @@
+/* Reset default margin and padding */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and font family for the app */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the to-do list container */
+  .todo-list {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Style the to-do list items */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the to-do item checkbox */
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style the to-do item text */
+  .todo-item label {
+    flex: 1;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the delete button for each to-do item */
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px
+  
